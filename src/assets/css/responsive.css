@@ -1,12 +1,3 @@
-/*
-* ----------------------------------------------------------------------------------------
-Author       : Syed
-Template Name: Bentos - Personal Portfolio HTML Template
-Version      : 1.0                                        
-* ----------------------------------------------------------------------------------------
-*/
-
-
 /* Medium Layout: 1280px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1280px) {
@@ -17,16 +8,19 @@ Version      : 1.0
     .section-title p {
         padding: 0px 100px;
     }
+
     .about-image-part h2 {
-    font-size: 30px;
-}
-.about-social ul li {
-    display: inline-block;
-    margin: 15px 2px 15px 2px;
-}
-.call-to-action-part {
-    padding: 60px 60px;
-}
+        font-size: 30px;
+    }
+
+    .about-social ul li {
+        display: inline-block;
+        margin: 15px 2px 15px 2px;
+    }
+
+    .call-to-action-part {
+        padding: 60px 60px;
+    }
 }
 
 

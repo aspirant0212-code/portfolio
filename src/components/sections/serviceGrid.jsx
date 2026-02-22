@@ -1,5 +1,5 @@
 import React from 'react'
-import { RiGlobalFill, RiPantoneFill, RiQuillPenLine } from '@remixicon/react'
+import { RiLayoutLine, RiCodeBoxLine, RiRocketLine, RiRobotLine, RiCloudLine, RiDatabase2Line } from '@remixicon/react'
 import SlideUp from '@/utlits/animations/slideUp'
 
 const ServiceGrid = () => {
@@ -17,10 +17,13 @@ const ServiceGrid = () => {
                             </SlideUp>
                         </div>
                     </div>
-                    <div className="row">
-                        <Card id={1} icon={<RiGlobalFill size={60} />} title={"Brand Identity Design"} description={"Bentos gives you the blocks & kits you need to create a true website within minutes."} />
-                        <Card id={2} icon={<RiQuillPenLine size={60} />} title={"Website Design"} description={"Bentos gives you the blocks & kits you need to create a true website within minutes."} />
-                        <Card id={3} icon={<RiPantoneFill size={60} />} title={"Application Design"} description={"Bentos gives you the blocks & kits you need to create a true website within minutes."} />
+                    <div className="row g-4">
+                        <Card id={1} icon={<RiLayoutLine size={60} />} title={"UI/UX Design"} description={"Crafting stunning, user-centered designs that provide seamless digital experiences and reflect your brand's unique identity."} />
+                        <Card id={2} icon={<RiCodeBoxLine size={60} />} title={"Web Development"} description={"Building robust, scalable, and highly performant websites using modern technologies from front-end to back-end."} />
+                        <Card id={3} icon={<RiRocketLine size={60} />} title={"Deployment & Support"} description={"Ensuring smooth deployment to production and providing ongoing support to keep your web applications secure and up-to-date."} />
+                        <Card id={4} icon={<RiRobotLine size={60} />} title={"AI Automation"} description={"Integrating intelligent AI solutions to streamline workflows, enhance productivity, and automate complex processes."} />
+                        <Card id={5} icon={<RiCloudLine size={60} />} title={"Cloud Migration"} description={"Smoothly transitioning legacy systems to modern cloud infrastructures for improved scalability, security, and cost-efficiency."} />
+                        <Card id={6} icon={<RiDatabase2Line size={60} />} title={"Data Engineering"} description={"Designing and building robust data pipelines to collect, transform, and analyze large volumes of information for actionable insights."} />
                     </div>
                 </div>
             </div>

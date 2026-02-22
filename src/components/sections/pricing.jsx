@@ -31,7 +31,7 @@ const Pricing = () => {
 export default Pricing
 
 
-const Card = ({id, title, price, sortInfo, features }) => {
+const Card = ({ id, title, price, sortInfo, features }) => {
     return (
         <div className="col-lg-4 col-md-6">
             <SlideUp delay={id}>
@@ -41,13 +41,17 @@ const Card = ({id, title, price, sortInfo, features }) => {
                         <p className="save-percent" dangerouslySetInnerHTML={{ __html: sortInfo }} />
                         <span className="price">{price}</span>
                     </div>
-                    <div className="pricing-details">
-                        <ul>
-                            {
-                                features.map(({ id, feature, unable }) => <li key={id} className={`${unable ? "unable" : ""}`}><i> <RiArrowRightLine size={14} /></i>{feature}</li>)
-                            }
-                        </ul>
-                        <Link href="#" className="theme-btn">Order Now <i><RiShoppingBasketLine size={16} /></i> </Link>
+                    {title !== "Custom" && (
+                        <div className="pricing-details">
+                            <ul>
+                                {
+                                    features.map(({ id, feature, unable }) => <li key={id} className={`${unable ? "unable" : ""}`}><i> <RiArrowRightLine size={14} /></i>{feature}</li>)
+                                }
+                            </ul>
+                        </div>
+                    )}
+                    <div className="pricing-details" style={{ paddingTop: title === "Custom" ? "20px" : "0" }}>
+                        <Link href={`/contact?plan=${title}`} className="theme-btn">Order Now <i><RiShoppingBasketLine size={16} /></i> </Link>
                     </div>
                 </div>
             </SlideUp>

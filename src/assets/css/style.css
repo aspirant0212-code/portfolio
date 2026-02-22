@@ -1,13 +1,5 @@
 /*
 * ----------------------------------------------------------------------------------------
-Author       : Syed
-Template Name: Bentos - Personal Portfolio HTML Template
-Version      : 1.0                                          
-* ----------------------------------------------------------------------------------------
-*/
-
-/*
-* ----------------------------------------------------------------------------------------
 * 01.GLOBAL CSS STYLE
 * 02.COMMON CSS STYLE
 * 03.MENU CSS STYLE
@@ -431,12 +423,14 @@ html {
     transition: .3s
 }
 
-.white{
+.white {
     color: #fff;
 }
-a.white:hover{
-     color: #1f2937;
+
+a.white:hover {
+    color: #1f2937;
 }
+
 .menu-btns a.theme-btn {
     background: transparent;
 }
@@ -2120,14 +2114,11 @@ ul.extra-skills li i {
 
 
 .pricing-item .pricing-header .price:before {
-    content: '$';
+    content: '';
 }
 
 .pricing-item .pricing-header .price:after {
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--main-color);
-    content: '/Hour';
+    content: '';
 }
 
 .pricing-item .pricing-details {

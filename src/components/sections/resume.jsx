@@ -13,9 +13,9 @@ const Resume = () => {
                             <div className="single-resume">
                                 <h2>Experience</h2>
                                 <div className="experience-list">
-                                    <Card year={'2021 - Present'} title={'Web Designer'} institution={'Themeforest Market '} />
-                                    <Card year={'2021 - 2023'} title={'Marketing Expert GRP'} institution={'Envato Theme Developer'} />
-                                    <Card year={'2021 - 2022'} title={'Web Designer'} institution={'Web Developer & Business Partner'} />
+                                    <Card year={'2022 - Present'} title={'Full Stack Developer'} institution={'Tech Solutions India'} />
+                                    <Card year={'2020 - 2022'} title={'Frontend Web Developer'} institution={'Creative Digital Agency'} />
+                                    <Card year={'2019 - 2020'} title={'Web Development Intern'} institution={'Tech Innovations Group'} />
                                 </div>
                             </div>
                         </div>
@@ -25,9 +25,9 @@ const Resume = () => {
                             <div className="experience-list">
                                 <div className="single-resume">
                                     <h2>Education</h2>
-                                    <Card year={'2013 - 2015'} title={'Bachelor Degree of Information Technology'} institution={'State University bangladesh'} />
-                                    <Card year={'2021 - 2024'} title={'Higher secoundery Education'} institution={'Premium College United VC'} />
-                                    <Card year={'2020 - 2021'} title={'UI/UX Design'} institution={'Webster College'} />
+                                    <Card year={'2015 - 2019'} title={'Bachelor of Technology (B.Tech)'} institution={'Anna University'} />
+                                    <Card year={'2013 - 2015'} title={'Higher Secondary Education'} institution={'State Board, Tamil Nadu'} />
+                                    <Card year={'2019'} title={'Full Stack Development Certification'} institution={'Udemy / Coursera'} />
                                 </div>
                             </div>
                         </div>

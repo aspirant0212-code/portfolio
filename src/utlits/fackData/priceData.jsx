@@ -2,32 +2,32 @@ export const priceData = [
     {
         id: 1,
         title: "Basic",
-        price: "15",
-        sortInfo: "Have design ready to build? <br> or small budget",
+        price: "₹9,999",
+        sortInfo: "Have a small budget? <br> Perfect for landing pages",
         features: [
             {
                 id: 1,
-                feature: "Need your wireframe",
+                feature: "Responsive Landing Page",
                 unable: false
             },
             {
                 id: 2,
-                feature: "Design with Figma, Framer",
+                feature: "UI/UX Design (Figma)",
                 unable: false
             },
             {
                 id: 3,
-                feature: "Product Design",
+                feature: "Basic SEO Setup",
                 unable: false
             },
             {
                 id: 4,
-                feature: "Digital Marketing",
+                feature: "Backend & Database",
                 unable: true
             },
             {
                 id: 5,
-                feature: "Custom Support",
+                feature: "Cloud Deployment",
                 unable: true
             }
         ]
@@ -35,65 +35,64 @@ export const priceData = [
     {
         id: 2,
         title: "Standard",
-        price: "59",
-        sortInfo: "  Not have any design? <br> Leave its for me",
+        price: "₹24,999",
+        sortInfo: "Need a dynamic website? <br> Ideal for growing businesses",
         features: [
             {
                 id: 1,
-                feature: "Website Design",
+                feature: "Custom UI/UX Design",
                 unable: false
             },
             {
                 id: 2,
-                feature: "Mobile Apps Design",
+                feature: "Frontend & Backend Dev",
                 unable: false
             },
             {
                 id: 3,
-                feature: "Product Design",
+                feature: "Database Integration",
                 unable: false
             },
             {
                 id: 4,
-                feature: "Digital Marketing",
+                feature: "REST API Development",
                 unable: false
             },
             {
                 id: 5,
-                feature: "Custom Support",
+                feature: "Advanced Cloud Support",
                 unable: true
             }
         ]
     },
     {
         id: 3,
-        title: "Gold",
-        price: "100",
-        sortInfo: "Have design ready to build? <br> or small budget",
+        title: "Custom",
+        sortInfo: "Looking for complete solutions? <br> End-to-end full stack app",
         features: [
             {
                 id: 1,
-                feature: "Website Design",
+                feature: "Full Stack Web Application",
                 unable: false
             },
             {
                 id: 2,
-                feature: "Mobile Apps Design",
+                feature: "Admin Dashboards & Portals",
                 unable: false
             },
             {
                 id: 3,
-                feature: "Product Design",
+                feature: "AI Automation Integrations",
                 unable: false
             },
             {
                 id: 4,
-                feature: "Digital Marketing",
+                feature: "Cloud Migration & Deployment",
                 unable: false
             },
             {
                 id: 5,
-                feature: "Custom Support",
+                feature: "24/7 Custom Support",
                 unable: false
             }
         ]

@@ -21,10 +21,10 @@ const Summery = () => {
                         <SlideUp>
                             <div className="about-content-part">
                                 <h2>
-                                    I’m Bentos Walker, a product designer.
+                                    I’m Ranjith Mohan, a full stack web developer.
                                 </h2>
-                                <p>I am a San francisco-based product designer with a focus on web design, illustration, a visual development. I have a diverse range of experience having worked across various fields and industries.</p>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                                <p>I am an India-based full stack web developer with a focus on seamless web design, robust backend development, and scalable cloud deployment. I have a diverse range of experience having worked across various fields and industries.</p>
+                                <p>My approach involves understanding your unique business requirements and translating them into dynamic, high-performing web applications. From crafting intuitive UI/UX with modern frameworks to building secure APIs and database architectures, I ensure every project is built to deliver a true end-to-end digital experience.</p>
                                 <div className="hero-btns">
                                     <a href="contact.html" className="theme-btn">Get In touch<i> <RiMailSendLine size={16} /> </i></a>
                                 </div>

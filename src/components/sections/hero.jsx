@@ -15,8 +15,8 @@ const Hero = () => {
                         <SlideUp>
                             <div className="about-image-part">
                                 <img src={"/images/about/profile.png"} alt="About Me" />
-                                <h2>Bentos Walker</h2>
-                                <p>I am a Web Designer based in san francisco.</p>
+                                <h2>Ranjith Mohan</h2>
+                                <p>I am a Web Developer based in India.</p>
                                 <div className="about-social text-center">
                                     <ul>
                                         <li><Link href=""><RiFacebookCircleFill size={20} /></Link></li>
@@ -35,7 +35,7 @@ const Hero = () => {
                             <div className="about-content-part">
                                 <p>Hello There!</p>
                                 <h2>
-                                    I’m Bentos Walker, a product designer crafting user-centric design with pixel-perfect precision.
+                                    I’m Ranjith Mohan, a full-stack web developer crafting robust, user-centric web applications from design to deploy.
                                 </h2>
                                 <div className="adress-field">
                                     <ul>
