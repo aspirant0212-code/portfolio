@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import ContactOption from '../../components/sections/contact/contactOption'
 import ContactForm from '../../components/sections/contact/contactForm'
 
@@ -17,7 +17,9 @@ const Contact = () => {
           </div>
           <div className="row">
             <ContactOption />
-            <ContactForm />
+            <Suspense fallback={<div className="col-lg-8"><p>Loading form...</p></div>}>
+              <ContactForm />
+            </Suspense>
           </div>
         </div>
       </div>
