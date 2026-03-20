@@ -13,9 +13,9 @@ const Resume = () => {
                             <div className="single-resume">
                                 <h2>Experience</h2>
                                 <div className="experience-list">
-                                    <Card year={'2022 - Present'} title={'Full Stack Developer'} institution={'Tech Solutions India'} />
-                                    <Card year={'2020 - 2022'} title={'Frontend Web Developer'} institution={'Creative Digital Agency'} />
-                                    <Card year={'2019 - 2020'} title={'Web Development Intern'} institution={'Tech Innovations Group'} />
+                                    <Card year={'2025 jan - Present'} title={'Full Stack Web Developer'} institution={'Billiontags Creations Pvt Ltd'} />
+                                    <Card year={'2024 oct - dec 2024'} title={'Jr. Content Writer'} institution={'Billiontags Creations Pvt Ltd'} />
+                                    <Card year={'2024 may - July 2024'} title={'Web Development Intern'} institution={'Akshaya Homes'} />
                                 </div>
                             </div>
                         </div>
@@ -25,9 +25,11 @@ const Resume = () => {
                             <div className="experience-list">
                                 <div className="single-resume">
                                     <h2>Education</h2>
-                                    <Card year={'2015 - 2019'} title={'Bachelor of Technology (B.Tech)'} institution={'Anna University'} />
-                                    <Card year={'2013 - 2015'} title={'Higher Secondary Education'} institution={'State Board, Tamil Nadu'} />
-                                    <Card year={'2019'} title={'Full Stack Development Certification'} institution={'Udemy / Coursera'} />
+                                    <Card year={'2020 - 2023'} title={'Bachelor of Computer Applications (BCA)'} institution={'Madras University'} />
+                                    {/* <Card year={'2018 - 2020'} title={'Higher Secondary Education'} institution={'State Board, Tamil Nadu'} /> */}
+                                    <Card year={'2023'} title={'Full Stack Development Certification'} institution={'Qspiders'} />
+                                    <Card year={'2025'} title={'Cloud Engineering'} institution={'Inceptez Technologies'} />
+
                                 </div>
                             </div>
                         </div>

@@ -22,7 +22,7 @@ const Testimonials = () => {
                         <div className="col-xl-12 col-lg-12">
                             <SlideUp>
                                 <div className="section-title text-center">
-                                    <p>Testinomials</p>
+                                    <p>Testimonials</p>
                                     <h2>What clients say!</h2>
                                 </div>
                             </SlideUp>

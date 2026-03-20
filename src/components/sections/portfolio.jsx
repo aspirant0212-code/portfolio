@@ -74,8 +74,8 @@ const Card = ({ category, title, src, animationClass, id }) => {
             <SlideUp delay={id}>
                 <div className="project-item style-two">
                     <div className="project-image">
-                        <Image width={383} height={249} sizes='100vw' style={{width:"100%", height:"auto"}} src={src} alt="Project" />
-                        <Link href="/single-project" className="details-btn"><RiArrowRightUpLine /> </Link>
+                        <Image width={383} height={249} sizes='100vw' style={{ width: "100%", height: "auto" }} src={src} alt="Project" />
+                        <Link href={`/single-project/${id}`} className="details-btn"><RiArrowRightUpLine /> </Link>
                     </div>
                     <div className="project-content">
                         <span className="sub-title">{category}</span>
